@@ -1,0 +1,42 @@
+
+#_______________________________________________________________________________
+# Written by Wiliam Cheung, 2016/03/16
+
+format := map func_label -> prof_entry
+
+prof_entry := tuple(
+	cc,
+	nc,
+	tt,
+	ct,
+	callers
+)
+
+
+func_label := tuple(filename, firstlineno, func_name)
+# for built-in funcs, filename = '~' and firstlineno = 0
+
+cc := number of calls by other funcs 
+nc := total number of calls
+tt := total time spent in the func, excluding the time in subcalls
+ct := cumulative time spent in this func and all its subfuncs
+# For recursive functions, cc != nc
+
+callers := map func_label of caller ->  tuple(nc1, cc1, tt1, ct1)
+
+nc1 := times the callee is called by the caller
+cc1 := times the callee is called but not recursively by the caller
+tt1 := total time the callee spent (not in further subcalls) when 
+       it's called by the caller
+ct1 := total time the callee spent when it's called by the caller, 
+       including time spent in further subcalls
+
+# profile and cProfile are compatible. Their output files saving profiler 
+# results have similar format except that:
+#
+#   1)  profile uses '' as filename of built-in funcs while cProfile uses '~';
+#   2)  callers in the profile's output are defined as a map from a func_label 
+#       to a number named callcount (times the callee is called by the caller;
+#       it's equivalent to nc1 above)
+
+#_______________________________________________________________________________

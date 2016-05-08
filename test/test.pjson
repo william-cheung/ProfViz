@@ -1,0 +1,290 @@
+{
+    "<len>": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<len>"
+        }, 
+        "inlinetime": 9.62170965593087e-07, 
+        "reccallcount": 0, 
+        "totaltime": 9.62170965593087e-07
+    }, 
+    "<method 'close' of 'file' objects>": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<method 'close' of 'file' objects>"
+        }, 
+        "inlinetime": 1.2508222552710132e-05, 
+        "reccallcount": 0, 
+        "totaltime": 1.2508222552710132e-05
+    }, 
+    "<method 'disable' of '_lsprof.Profiler' objects>": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<method 'disable' of '_lsprof.Profiler' objects>"
+        }, 
+        "inlinetime": 3.207236551976957e-07, 
+        "reccallcount": 0, 
+        "totaltime": 3.207236551976957e-07
+    }, 
+    "<method 'end' of '_sre.SRE_Match' objects>": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<method 'end' of '_sre.SRE_Match' objects>"
+        }, 
+        "inlinetime": 6.414473103953914e-07, 
+        "reccallcount": 0, 
+        "totaltime": 6.414473103953914e-07
+    }, 
+    "<method 'match' of '_sre.SRE_Pattern' objects>": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<method 'match' of '_sre.SRE_Pattern' objects>"
+        }, 
+        "inlinetime": 2.8865128967792614e-06, 
+        "reccallcount": 0, 
+        "totaltime": 2.8865128967792614e-06
+    }, 
+    "<method 'read' of 'file' objects>": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<method 'read' of 'file' objects>"
+        }, 
+        "inlinetime": 0.00021360195436166533, 
+        "reccallcount": 0, 
+        "totaltime": 0.00021360195436166533
+    }, 
+    "<module> [duptest.py:6]": {
+        "callcount": 1, 
+        "callees": {
+            "<sys.exit>": {
+                "callcount": 1, 
+                "totaltime": 6.414473103953914e-07
+            }, 
+            "main [duptest.py:79]": {
+                "callcount": 1, 
+                "totaltime": 0.001654613337164912
+            }
+        }, 
+        "code": {
+            "co_filename": "duptest.py", 
+            "co_firstlineno": 6, 
+            "co_name": "<module>"
+        }, 
+        "inlinetime": 7.697367724744697e-06, 
+        "reccallcount": 0, 
+        "totaltime": 0.0016629521522000521
+    }, 
+    "<nt.stat>": {
+        "callcount": 2, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<nt.stat>"
+        }, 
+        "inlinetime": 0.00011257400297439118, 
+        "reccallcount": 0, 
+        "totaltime": 0.00011257400297439118
+    }, 
+    "<open>": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<open>"
+        }, 
+        "inlinetime": 4.169407517570044e-05, 
+        "reccallcount": 0, 
+        "totaltime": 4.169407517570044e-05
+    }, 
+    "<sys.exit>": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "", 
+            "co_firstlineno": 0, 
+            "co_name": "<sys.exit>"
+        }, 
+        "inlinetime": 6.414473103953914e-07, 
+        "reccallcount": 0, 
+        "totaltime": 6.414473103953914e-07
+    }, 
+    "decode [C:\\Python27\\lib\\json\\decoder.py:361]": {
+        "callcount": 1, 
+        "callees": {
+            "<method 'end' of '_sre.SRE_Match' objects>": {
+                "callcount": 1, 
+                "totaltime": 6.414473103953914e-07
+            }, 
+            "<method 'match' of '_sre.SRE_Pattern' objects>": {
+                "callcount": 1, 
+                "totaltime": 2.8865128967792614e-06
+            }, 
+            "raw_decode [C:\\Python27\\lib\\json\\decoder.py:372]": {
+                "callcount": 1, 
+                "totaltime": 1.122532793191935e-05
+            }
+        }, 
+        "code": {
+            "co_filename": "C:\\Python27\\lib\\json\\decoder.py", 
+            "co_firstlineno": 361, 
+            "co_name": "decode"
+        }, 
+        "inlinetime": 8.338815035140088e-06, 
+        "reccallcount": 0, 
+        "totaltime": 2.309210317423409e-05
+    }, 
+    "dup_test [duptest.py:62]": {
+        "callcount": 1, 
+        "callees": {
+            "load_json [duptest.py:16]": {
+                "callcount": 1, 
+                "totaltime": 0.00042784535603372604
+            }
+        }, 
+        "code": {
+            "co_filename": "duptest.py", 
+            "co_firstlineno": 62, 
+            "co_name": "dup_test"
+        }, 
+        "inlinetime": 0.00122067423168243, 
+        "reccallcount": 0, 
+        "totaltime": 0.0016485195877161559
+    }, 
+    "exists [C:\\Python27\\lib\\genericpath.py:15]": {
+        "callcount": 2, 
+        "callees": {
+            "<nt.stat>": {
+                "callcount": 2, 
+                "totaltime": 0.00011257400297439118
+            }
+        }, 
+        "code": {
+            "co_filename": "C:\\Python27\\lib\\genericpath.py", 
+            "co_firstlineno": 15, 
+            "co_name": "exists"
+        }, 
+        "inlinetime": 5.131578483163131e-06, 
+        "reccallcount": 0, 
+        "totaltime": 0.00011770558145755432
+    }, 
+    "load [C:\\Python27\\lib\\json\\__init__.py:245]": {
+        "callcount": 1, 
+        "callees": {
+            "<method 'read' of 'file' objects>": {
+                "callcount": 1, 
+                "totaltime": 0.00021360195436166533
+            }, 
+            "loads [C:\\Python27\\lib\\json\\__init__.py:281]": {
+                "callcount": 1, 
+                "totaltime": 2.5016445105420263e-05
+            }
+        }, 
+        "code": {
+            "co_filename": "C:\\Python27\\lib\\json\\__init__.py", 
+            "co_firstlineno": 245, 
+            "co_name": "load"
+        }, 
+        "inlinetime": 7.376644069547001e-06, 
+        "reccallcount": 0, 
+        "totaltime": 0.00024599504353663257
+    }, 
+    "load_json [duptest.py:16]": {
+        "callcount": 1, 
+        "callees": {
+            "<method 'close' of 'file' objects>": {
+                "callcount": 1, 
+                "totaltime": 1.2508222552710132e-05
+            }, 
+            "<open>": {
+                "callcount": 1, 
+                "totaltime": 4.169407517570044e-05
+            }, 
+            "exists [C:\\Python27\\lib\\genericpath.py:15]": {
+                "callcount": 2, 
+                "totaltime": 0.00011770558145755432
+            }, 
+            "load [C:\\Python27\\lib\\json\\__init__.py:245]": {
+                "callcount": 1, 
+                "totaltime": 0.00024599504353663257
+            }
+        }, 
+        "code": {
+            "co_filename": "duptest.py", 
+            "co_firstlineno": 16, 
+            "co_name": "load_json"
+        }, 
+        "inlinetime": 9.942433311128566e-06, 
+        "reccallcount": 0, 
+        "totaltime": 0.00042784535603372604
+    }, 
+    "loads [C:\\Python27\\lib\\json\\__init__.py:281]": {
+        "callcount": 1, 
+        "callees": {
+            "decode [C:\\Python27\\lib\\json\\decoder.py:361]": {
+                "callcount": 1, 
+                "totaltime": 2.309210317423409e-05
+            }
+        }, 
+        "code": {
+            "co_filename": "C:\\Python27\\lib\\json\\__init__.py", 
+            "co_firstlineno": 281, 
+            "co_name": "loads"
+        }, 
+        "inlinetime": 1.924341931186174e-06, 
+        "reccallcount": 0, 
+        "totaltime": 2.5016445105420263e-05
+    }, 
+    "main [duptest.py:79]": {
+        "callcount": 1, 
+        "callees": {
+            "<len>": {
+                "callcount": 1, 
+                "totaltime": 9.62170965593087e-07
+            }, 
+            "dup_test [duptest.py:62]": {
+                "callcount": 1, 
+                "totaltime": 0.0016485195877161559
+            }
+        }, 
+        "code": {
+            "co_filename": "duptest.py", 
+            "co_firstlineno": 79, 
+            "co_name": "main"
+        }, 
+        "inlinetime": 5.131578483163131e-06, 
+        "reccallcount": 0, 
+        "totaltime": 0.001654613337164912
+    }, 
+    "raw_decode [C:\\Python27\\lib\\json\\decoder.py:372]": {
+        "callcount": 1, 
+        "callees": {}, 
+        "code": {
+            "co_filename": "C:\\Python27\\lib\\json\\decoder.py", 
+            "co_firstlineno": 372, 
+            "co_name": "raw_decode"
+        }, 
+        "inlinetime": 1.122532793191935e-05, 
+        "reccallcount": 0, 
+        "totaltime": 1.122532793191935e-05
+    }
+}
