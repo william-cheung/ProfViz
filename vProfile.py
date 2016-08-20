@@ -7,7 +7,7 @@
 
 """Tools for processing results of the profilers from Python Library:
 
-Terms in our symbols:
+A note on naming:
     'pstats' refers to profiler results dumped by 'profile' or 'cProfile',
     and 'vstats' profiler results dumped by 'vProfile'
 
